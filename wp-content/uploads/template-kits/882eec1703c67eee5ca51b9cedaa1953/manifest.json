@@ -1,0 +1,805 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Guarden",
+    "page_builder": "elementor",
+    "kit_version": "1.1",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/demo.eightheme.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Booking",
+            "screenshot": "screenshots\/booking.jpg",
+            "source": "templates\/booking.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/booking\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Reviews",
+            "screenshot": "screenshots\/reviews.jpg",
+            "source": "templates\/reviews.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/reviews\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Service",
+            "screenshot": "screenshots\/single-service.jpg",
+            "source": "templates\/single-service.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/single-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/blog\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Post",
+            "screenshot": "screenshots\/post.jpg",
+            "source": "templates\/post.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Metform Booking",
+            "screenshot": "screenshots\/metform-booking.jpg",
+            "source": "templates\/metform-booking.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/metform-booking\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Metform Contact",
+            "screenshot": "screenshots\/metform-contact.jpg",
+            "source": "templates\/metform-contact.json",
+            "preview_url": "https:\/\/demo.eightheme.com\/guarden\/template-kit\/metform-contact\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "MetForm",
+            "version": "2.1.2",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.5",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.3",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "35.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/35-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 195927,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/landscaper-working-with-mini-hedge-trimmer-SW7H9QX"
+        },
+        {
+            "filename": "36.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/36-800x531.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 181358,
+            "dimensions": [
+                1920,
+                1274
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-professional-gardener-with-scissors-in-his-h-8XVTEZL"
+        },
+        {
+            "filename": "37.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/37-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 187943,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/caucasian-professional-garden-worker-trimming-plan-T3V9MPC"
+        },
+        {
+            "filename": "38.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/38-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/post.json",
+                    "name": "Post"
+                }
+            ],
+            "filesize": 96992,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/hand-held-hedge-trimmer-in-use-ZH7LY4A"
+        },
+        {
+            "filename": "39.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/39-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 58088,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-gardener-pruning-plants-for-good-heal-ETU53E6"
+        },
+        {
+            "filename": "40.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/40-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/post.json",
+                    "name": "Post"
+                }
+            ],
+            "filesize": 98966,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-garden-worker-trimming-plants-using-s-V2H89YB"
+        },
+        {
+            "filename": "41.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/41.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/booking.json",
+                    "name": "Booking"
+                }
+            ],
+            "filesize": 102841,
+            "dimensions": [
+                500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/planting-and-gardening-concept-seedling-and-plants-P9PHGLX"
+        },
+        {
+            "filename": "42.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/42.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/booking.json",
+                    "name": "Booking"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 91302,
+            "dimensions": [
+                500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/gardener-working-in-a-garden-VFE4B2P"
+        },
+        {
+            "filename": "43.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/43-800x369.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 177933,
+            "dimensions": [
+                1920,
+                885
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-gardener-with-scissors-in-his-hand-in-7YEVYQW"
+        },
+        {
+            "filename": "44.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/44.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/reviews.json",
+                    "name": "Reviews"
+                }
+            ],
+            "filesize": 12446,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-man-in-garden-tending-to-plants-HCVMWFE"
+        },
+        {
+            "filename": "45.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/45.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/reviews.json",
+                    "name": "Reviews"
+                }
+            ],
+            "filesize": 14638,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-man-gardener-environmentalist-caring-for-pla-2LYDD8U"
+        },
+        {
+            "filename": "46.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/46.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 101974,
+            "dimensions": [
+                500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-gardener-taking-care-of-backyard-lawn-J5MEX3P"
+        },
+        {
+            "filename": "47.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/47.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 64453,
+            "dimensions": [
+                500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/landscaping-and-gardening-worker-with-scissors-in--3YXL7UE"
+        },
+        {
+            "filename": "48.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/48-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 111061,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/gardener-working-in-a-garden-VFE4B2P"
+        },
+        {
+            "filename": "51.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/51-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 62073,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-gardener-with-his-tools-in-his-hands--74VAC3B"
+        },
+        {
+            "filename": "49.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/49-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 88793,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/garden-plants-topiary-trimming-close-up-35A2DUB"
+        },
+        {
+            "filename": "52.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/52-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 89472,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/gardener-with-garden-hose-5P3GH4S"
+        },
+        {
+            "filename": "50.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/50-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 76113,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/gardener-hands-picking-and-planting-vegetable-plan-VQQ3ZBR"
+        },
+        {
+            "filename": "53.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/53-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 67488,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/caucasian-professional-garden-worker-trimming-plan-T3V9MPC"
+        },
+        {
+            "filename": "54.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/54.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 88406,
+            "dimensions": [
+                500,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/landscaper-working-with-mini-hedge-trimmer-SW7H9QX"
+        },
+        {
+            "filename": "55.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/55-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 170293,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/professional-garden-worker-trimming-plants-using-s-V2H89YB"
+        },
+        {
+            "filename": "57.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/57.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 52179,
+            "dimensions": [
+                667,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/gardener-working-in-greenhouse-HU86KYQ"
+        },
+        {
+            "filename": "58.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/58-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 72456,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/gardener-finishing-garden-FM7Q7BJ"
+        },
+        {
+            "filename": "56.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/56.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 88155,
+            "dimensions": [
+                667,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/planting-and-gardening-concept-seedling-and-plants-P9PHGLX"
+        },
+        {
+            "filename": "59.jpg",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/59-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/reviews.json",
+                    "name": "Reviews"
+                }
+            ],
+            "filesize": 143271,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-man-in-garden-tending-to-plants-HCVMWFE"
+        },
+        {
+            "filename": "logo.png",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/logo.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 2931,
+            "dimensions": [
+                140,
+                40
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo2.png",
+            "thumbnail_url": "https:\/\/demo.eightheme.com\/guarden\/wp-content\/uploads\/sites\/33\/2022\/10\/logo2.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 2522,
+            "dimensions": [
+                140,
+                40
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}
